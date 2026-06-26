@@ -58,6 +58,21 @@ body {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease, color .18s ease;
+  will-change: transform;
+}
+
+.crush-btn:hover {
+  transform: translateY(-2px);
+  border-color: #e5553f;
+  background: #e5553f;
+  box-shadow: 0 14px 30px rgba(207, 71, 50, .28);
+}
+
+.crush-btn:focus-visible {
+  outline: 3px solid rgba(207, 71, 50, .38);
+  outline-offset: 3px;
 }
 
 .crush-btn.secondary {
@@ -66,14 +81,32 @@ body {
   border-color: rgba(255, 255, 255, .74);
 }
 
+.crush-btn.secondary:hover {
+  border-color: var(--crush-white);
+  background: var(--crush-white);
+  color: var(--crush-black);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, .24);
+}
+
 .crush-btn.dark {
   color: var(--crush-black);
+}
+
+.crush-btn.dark:hover {
+  color: var(--crush-white);
 }
 
 .crush-btn.outline {
   background: transparent;
   color: var(--crush-black);
   border-color: #888;
+}
+
+.crush-btn.outline:hover {
+  border-color: var(--crush-black);
+  background: var(--crush-black);
+  color: var(--crush-white);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, .16);
 }
 
 .crush-btn.compact {
@@ -121,6 +154,12 @@ body {
 .crush-actionbar .crush-btn.outline {
   color: var(--crush-white);
   border-color: rgba(255, 255, 255, .38);
+}
+
+.crush-actionbar .crush-btn.outline:hover {
+  border-color: var(--crush-white);
+  background: var(--crush-white);
+  color: var(--crush-black);
 }
 
 .crush-kicker {
@@ -324,6 +363,14 @@ body {
   border-radius: 8px;
   background: #111;
   color: var(--crush-white);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform .22s ease, box-shadow .22s ease;
+  will-change: transform;
+}
+
+.crush-experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, .24);
 }
 
 .crush-experience-card.large {
@@ -476,6 +523,15 @@ body {
   border-radius: 8px;
   background: rgba(255, 255, 255, .92);
   box-shadow: 0 18px 45px rgba(0, 0, 0, .18);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease, background-color .2s ease;
+  will-change: transform;
+}
+
+.crush-audience-grid article:hover {
+  transform: translateY(-5px);
+  border-color: rgba(207, 71, 50, .48);
+  background: var(--crush-white);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, .24);
 }
 
 .crush-audience-grid span {
@@ -554,6 +610,20 @@ body {
   border: 1px solid #e4e4e4;
   border-radius: 6px;
   background: var(--crush-white);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease, background-color .2s ease;
+  will-change: transform;
+}
+
+.crush-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(207, 71, 50, .42);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, .12);
+}
+
+.crush-card.accent:hover {
+  background: #dd513b;
+  box-shadow: 0 22px 48px rgba(207, 71, 50, .26);
 }
 
 .crush-card strong {
@@ -646,6 +716,12 @@ body {
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
+  transition: background-color .18s ease, color .18s ease, border-color .18s ease;
+}
+
+.crush-tab-list label:hover {
+  background: #ececec;
+  border-color: #cfcfcf;
 }
 
 .crush-tab-list label:last-child {
@@ -763,12 +839,15 @@ body {
   background:
     linear-gradient(140deg, rgba(207, 71, 50, .14), rgba(255, 255, 255, .03)),
     #121212;
-  transition: transform .2s ease, border-color .2s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background-color .2s ease;
+  will-change: transform;
 }
 
 .crush-topic-tile:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: var(--crush-red);
+  box-shadow: 0 26px 56px rgba(0, 0, 0, .32);
 }
 
 .crush-topic-tile.hot {
@@ -829,6 +908,15 @@ body {
   background: rgba(0, 0, 0, .62);
   box-shadow: 0 18px 45px rgba(0, 0, 0, .24);
   backdrop-filter: blur(8px);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease, background-color .2s ease;
+  will-change: transform;
+}
+
+.crush-outcome-track article:hover {
+  transform: translateY(-5px);
+  border-color: rgba(207, 71, 50, .52);
+  background: rgba(0, 0, 0, .74);
+  box-shadow: 0 30px 62px rgba(0, 0, 0, .32);
 }
 
 .crush-outcome-track span {
@@ -873,6 +961,14 @@ body {
   border: 1px solid #333;
   border-radius: 6px;
   background: #111;
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+  will-change: transform;
+}
+
+.crush-speaker:hover {
+  transform: translateY(-4px);
+  border-color: rgba(207, 71, 50, .7);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, .3);
 }
 
 .crush-avatar {
@@ -917,6 +1013,14 @@ body {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 6px;
+  transition: transform .22s ease, box-shadow .22s ease, filter .22s ease;
+  will-change: transform;
+}
+
+.crush-photo-grid img:hover {
+  transform: translateY(-4px) scale(1.012);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, .18);
+  filter: saturate(1.06);
 }
 
 .crush-photo-grid img:first-child {
@@ -972,6 +1076,39 @@ body {
   background: rgba(255, 255, 255, .08);
   color: rgba(255, 255, 255, .86);
   font-weight: 700;
+  transition: transform .18s ease, background-color .18s ease, color .18s ease;
+}
+
+.crush-partner-points li:hover {
+  transform: translateX(4px);
+  background: rgba(255, 255, 255, .14);
+  color: var(--crush-white);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crush-btn,
+  .crush-card,
+  .crush-experience-card,
+  .crush-audience-grid article,
+  .crush-topic-tile,
+  .crush-outcome-track article,
+  .crush-speaker,
+  .crush-photo-grid img,
+  .crush-partner-points li {
+    transition: none;
+  }
+
+  .crush-btn:hover,
+  .crush-card:hover,
+  .crush-experience-card:hover,
+  .crush-audience-grid article:hover,
+  .crush-topic-tile:hover,
+  .crush-outcome-track article:hover,
+  .crush-speaker:hover,
+  .crush-photo-grid img:hover,
+  .crush-partner-points li:hover {
+    transform: none;
+  }
 }
 
 .crush-final {

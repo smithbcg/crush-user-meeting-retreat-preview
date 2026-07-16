@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Direct feedback</title>
+  <desc id="desc">A product screen and a direct response conversation.</desc>
+  <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
+  <g fill="none" stroke="#f4f1ec" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M17 29h45v34H34L23 72v-9h-6z"/>
+    <path d="M34 68h25l11 9v-9h9V43H67"/>
+    <path d="M27 40h25M27 49h17"/>
+  </g>
+  <path fill="#cf4732" d="M26 56h27v6H26zM67 34h12v6H67z"/>
+</svg>

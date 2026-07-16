@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Owners and decision-makers</title>
+  <desc id="desc">A business leader overseeing connected yard locations.</desc>
+  <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
+  <g fill="none" stroke="#f4f1ec" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M42 27h12v12H42zM35 51v-5l13-7 13 7v5"/>
+    <path d="M17 63h18v13H17zM39 63h18v13H39zM61 63h18v13H61z"/>
+    <path d="M48 51v12M26 57h44M26 57v6m44-6v6"/>
+  </g>
+  <path fill="#cf4732" d="M42 18h12v6H42zM43 67h10v5H43z"/>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Team consistency</title>
+  <desc id="desc">Three team members aligned by one shared operating standard.</desc>
+  <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
+  <g fill="#f4f1ec">
+    <path d="M19 31h12v12H19zM17 47h16l5 8H12z"/>
+    <path d="M42 31h12v12H42zM40 47h16l5 8H35z"/>
+    <path d="M65 31h12v12H65zM63 47h16l5 8H58z"/>
+  </g>
+  <path fill="#cf4732" d="M18 63h60v7H18zM24 70h5v10h-5zm22 0h5v10h-5zm22 0h5v10h-5z"/>
+</svg>

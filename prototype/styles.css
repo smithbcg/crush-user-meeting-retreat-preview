@@ -401,12 +401,15 @@
 .crush-icon {
   width: 48px;
   height: 48px;
-  color: var(--crush-red);
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2.5;
-  stroke-linecap: square;
-  stroke-linejoin: miter;
+  object-fit: contain;
+  transition: transform .2s ease;
+}
+
+.crush-highlight-card:hover .crush-icon,
+.crush-highlight-card.crush-is-hovered .crush-icon,
+.crush-outcome-grid article:hover .crush-icon,
+.crush-outcome-grid article.crush-is-hovered .crush-icon {
+  transform: translateY(-3px) scale(1.04);
 }
 
 .crush-highlight-card h3,
@@ -870,12 +873,11 @@
 .crush-audience-item .crush-icon {
   width: 42px;
   height: 42px;
-  transition: color .18s ease, transform .18s ease;
+  transition: transform .18s ease;
 }
 
 .crush-audience-item:hover .crush-icon,
 .crush-audience-item.crush-is-hovered .crush-icon {
-  color: var(--crush-red-bright);
   transform: translateX(3px);
 }
 

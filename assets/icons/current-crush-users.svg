@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Current CRUSH users</title>
+  <desc id="desc">CRUSH users working together inside the platform.</desc>
+  <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
+  <g fill="none" stroke="#f4f1ec" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M17 28h62v43H17zM17 38h62"/>
+    <path d="M29 47h11v11H29zM25 66v-4l9-4 9 4v4"/>
+    <path d="M56 47h11v11H56zM52 66v-4l9-4 9 4v4"/>
+  </g>
+  <path fill="#cf4732" d="M22 32h14v3H22zM41 32h5v3h-5zM51 32h5v3h-5z"/>
+</svg>

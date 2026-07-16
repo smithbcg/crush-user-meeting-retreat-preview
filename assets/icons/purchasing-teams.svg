@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Purchasing teams</title>
+  <desc id="desc">Two buyers evaluating one shared vehicle offer.</desc>
+  <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
+  <g fill="#f4f1ec">
+    <path d="M16 31h12v12H16zM13 47h18l4 7H9z"/>
+    <path d="M68 31h12v12H68zM65 47h18l4 7H61z"/>
+  </g>
+  <g fill="none" stroke="#f4f1ec" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M34 43h28v19H34zM39 43l4-9h11l4 9M41 52h14"/>
+  </g>
+  <path fill="#cf4732" d="M29 64h38v9H29zM19 59h15v5H19zm43 0h15v5H62z"/>
+  <path fill="#fff" d="m36 70 4-4 4 4h-3v2h-2v-2zM47 67h14v3H47z"/>
+</svg>

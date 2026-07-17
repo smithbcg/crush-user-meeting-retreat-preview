@@ -2,9 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
   <title id="title">Future readiness</title>
   <desc id="desc">Dark-background variant. A rising operational path leading toward the next stage.</desc>
-  <path fill="#f4f1ec" d="M8 8h58l22 22v58H8z"/>
-  <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
-  <path fill="#202225" d="M18 67h16v13H18zM38 54h16v26H38zM58 45h16v35H58z"/>
-  <path fill="none" stroke="#cf4732" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" d="m18 56 19-15 12 7 17-13"/>
-  <path fill="#cf4732" d="m58 35 16-2-2 16-5-6-6 5z"/>
+  <path fill="#f4f1ec" d="M8 8h80v80H8z"/>
+  <path fill="#cf4732" d="M8 8h40v6H8z"/>
+  <path fill="#202225" d="M18 68h16v12H18zM39 55h16v25H39zM60 42h16v38H60z"/>
+  <path fill="none" stroke="#cf4732" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" d="m18 58 19-15 12 7 28-25M62 25h15v15"/>
 </svg>

@@ -5,8 +5,9 @@
   <path fill="#202225" d="M8 8h58l22 22v58H8z"/>
   <path fill="#cf4732" d="M8 8h40v6H8zM66 8v22h22z"/>
   <g fill="none" stroke="#f4f1ec" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M19 29h58v38H19zM19 46h58M43 29v38"/>
-    <path d="M27 39h8M27 56h8M51 57v-8h7v8h7V39h7"/>
+    <path d="M18 29h60v45H18zM18 40h60M45 40v34"/>
+    <path d="M25 49h13M25 58h13M25 67h13M51 67h26"/>
   </g>
-  <path fill="#cf4732" d="M16 72h64v8H16zM47 42h26v5H47z"/>
+  <path fill="#f4f1ec" d="M61 52h7v15h-7zM71 45h6v22h-6z"/>
+  <path fill="#cf4732" d="M52 58h7v9h-7z"/>
 </svg>

@@ -1251,6 +1251,96 @@
   font-weight: 600;
 }
 
+/* Native Cvent Contact Planner dialog */
+[class*="ContactPlanner__dialogContainer"] {
+  width: min(560px, calc(100vw - 32px)) !important;
+  overflow: hidden;
+  border: 1px solid rgba(32, 34, 37, .2);
+  border-radius: 6px !important;
+  background: #fff;
+  box-shadow: 0 28px 80px rgba(9, 11, 13, .3);
+}
+
+[class*="ContactPlanner__dialogContainer"] > [aria-describedby="dialogHeader"],
+[class*="ContactPlanner__dialogContainer"] #dialogHeader {
+  background: #cf4732 !important;
+}
+
+[class*="ContactPlanner__dialogContainer"] #dialogHeader {
+  padding: 20px 24px !important;
+}
+
+[class*="ContactPlanner__dialogContainer"] #dialogHeader h3 {
+  color: #fff !important;
+  font-family: Poppins, Helvetica, Arial, sans-serif !important;
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  text-transform: uppercase;
+}
+
+[class*="ContactPlanner__dialogContainer"] [data-cvent-id="close"] {
+  color: #fff !important;
+}
+
+[class*="ContactPlanner__panel"] {
+  padding: 26px 24px 30px !important;
+}
+
+[class*="ContactPlanner__contactInfo"] {
+  margin-bottom: 20px;
+  color: #59636b !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+[class*="ContactPlanner__element"] + [class*="ContactPlanner__element"] {
+  margin-top: 18px;
+}
+
+[class*="ContactPlanner__dialogContainer"] label {
+  display: block;
+  padding: 0 0 7px !important;
+  color: #202225 !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+[class*="ContactPlanner__dialogContainer"] input,
+[class*="ContactPlanner__dialogContainer"] textarea {
+  width: 100% !important;
+  border: 1px solid #aeb6bc !important;
+  border-radius: 4px !important;
+  padding: 11px 13px !important;
+  font-size: 16px !important;
+}
+
+[class*="ContactPlanner__dialogContainer"] input:focus,
+[class*="ContactPlanner__dialogContainer"] textarea:focus {
+  border-color: #cf4732 !important;
+  outline: 2px solid rgba(207, 71, 50, .18);
+  outline-offset: 1px;
+}
+
+[class*="ContactPlanner__submitButton"] {
+  margin-top: 24px;
+  border-radius: 4px !important;
+  background: #cf4732 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  transition: transform .18s ease, background-color .18s ease, box-shadow .18s ease;
+}
+
+[class*="ContactPlanner__submitButton"]:hover {
+  transform: translateY(-2px);
+  background: #b83b29 !important;
+  box-shadow: 0 10px 24px rgba(32, 34, 37, .18);
+}
+/* End native Cvent Contact Planner dialog */
+
 .crush-icon-sprite {
   position: absolute;
   width: 0;

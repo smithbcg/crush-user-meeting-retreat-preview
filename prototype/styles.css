@@ -167,15 +167,6 @@
   text-transform: uppercase;
 }
 
-.crush-nav-deadline {
-  color: var(--crush-red-bright);
-  font-size: 11px;
-  font-weight: 800;
-  line-height: 1.2;
-  white-space: nowrap;
-  text-transform: uppercase;
-}
-
 .crush-nav-actions {
   display: flex;
   gap: 18px;
@@ -287,6 +278,20 @@
   margin: 0;
   color: rgba(255, 255, 255, .84);
   font-size: 18px;
+}
+
+.crush-hero-actions {
+  display: grid;
+  gap: 10px;
+  justify-items: end;
+}
+
+.crush-hero-intro .crush-hero-deadline {
+  color: var(--crush-red-bright);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .crush-stats {
@@ -1383,6 +1388,7 @@
   .crush-experience-grid,
   .crush-topic-cta-inner { grid-template-columns: 1fr; }
   .crush-hero-intro-grid { gap: 22px; }
+  .crush-hero-actions { justify-items: start; }
   .crush-stats strong { font-size: 26px; }
   .crush-band { padding: 64px 0; }
   .crush-agenda-intro,
@@ -1412,13 +1418,14 @@
   .crush-nav-inner { gap: 10px; }
   .crush-nav-date { display: none; }
   .crush-nav-actions { width: 100%; justify-content: space-between; }
-  .crush-nav-deadline { max-width: 145px; font-size: 10px; white-space: normal; }
   .crush-hero { min-height: 510px; }
   .crush-hero-location { font-size: 12px; }
   .crush-hero-location span { display: block; height: 0; overflow: hidden; }
   .crush-hero h1 { font-size: 39px; }
   .crush-hero-date { font-size: 25px; }
   .crush-hero-intro p { font-size: 16px; }
+  .crush-hero-actions,
+  .crush-hero-actions .crush-btn-row { width: 100%; }
   .crush-stats-grid { grid-template-columns: 1fr; }
   .crush-stats-grid > div { min-height: 92px; padding: 17px 20px; border-right: 1px solid rgba(255, 255, 255, .24); border-bottom: 1px solid rgba(255, 255, 255, .24); }
   .crush-stats-grid > div:last-child { border-bottom: 0; }

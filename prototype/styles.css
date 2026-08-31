@@ -288,7 +288,7 @@
 
 .crush-hero-intro .crush-hero-deadline {
   color: var(--crush-white);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 1.25;
   text-align: center;
@@ -1430,6 +1430,7 @@
   .crush-hero h1 { font-size: 39px; }
   .crush-hero-date { font-size: 25px; }
   .crush-hero-intro p { font-size: 16px; }
+  .crush-hero-intro .crush-hero-deadline { font-size: 16px; }
   .crush-hero-actions,
   .crush-hero-actions .crush-btn-row { width: 100%; }
   .crush-stats-grid { grid-template-columns: 1fr; }

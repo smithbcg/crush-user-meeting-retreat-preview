@@ -283,15 +283,21 @@
 .crush-hero-actions {
   display: grid;
   gap: 10px;
-  justify-items: end;
+  justify-items: center;
 }
 
 .crush-hero-intro .crush-hero-deadline {
-  color: var(--crush-red-bright);
-  font-size: 12px;
+  color: var(--crush-white);
+  font-size: 16px;
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.25;
+  text-align: center;
   text-transform: uppercase;
+}
+
+.crush-hero-deadline strong {
+  color: var(--crush-red-bright);
+  font: inherit;
 }
 
 .crush-stats {
@@ -1388,7 +1394,7 @@
   .crush-experience-grid,
   .crush-topic-cta-inner { grid-template-columns: 1fr; }
   .crush-hero-intro-grid { gap: 22px; }
-  .crush-hero-actions { justify-items: start; }
+  .crush-hero-actions { justify-items: center; }
   .crush-stats strong { font-size: 26px; }
   .crush-band { padding: 64px 0; }
   .crush-agenda-intro,
